@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mvp-RxRetrofit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_menu_item0">最新</string>
+    <string name="navigation_drawer_menu_item1">热门</string>
+    <string name="navigation_drawer_menu_item2">发现</string>
+    <string name="navigation_drawer_menu_item3">所有</string>
+    <string name="navigation_drawer_menu_item4">收藏</string>
+    <string name="navigation_drawer_menu_item5">所有</string>
+    <string name="navigation_drawer_menu_item6">设置</string>
+    <string name="topic">话题</string>
+    <string name="just_now">刚刚</string>
+</resources>
