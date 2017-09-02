@@ -11,7 +11,7 @@ import org.json.JSONObject;
  */
 
 public class TopicModel extends V2EXModel implements Parcelable {
-//    private static final long serialVersionUID = 2017082201L;
+    private static final long serialVersionUID = 2017082201L;
 
     public int id;
     public String title;

@@ -12,12 +12,12 @@ import org.json.JSONObject;
 
 public class MemberModel extends V2EXModel implements Parcelable {
 
-    //private static final long serialVersionUID = 2017082202L;
+    private static final long serialVersionUID = 2017082202L;
 
     public int id;
     public String username;
     public String tagline;
-    public String avatar;      //73*73
+    public String avatar;
     public String website;
     public String github;
     public String twitter;

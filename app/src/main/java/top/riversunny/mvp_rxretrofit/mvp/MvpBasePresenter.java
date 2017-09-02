@@ -11,7 +11,6 @@ public abstract class MvpBasePresenter<V> implements Presenter<V> {
     //view接口类型的弱引用
     protected Reference<V> mViewRef;
     //建立关联
-
     public  void attachView(V view){
         mViewRef = new WeakReference<V>(view);
     }
@@ -42,7 +41,7 @@ public abstract class MvpBasePresenter<V> implements Presenter<V> {
 
     public static class MvpViewNotAttachedException extends RuntimeException {
         public MvpViewNotAttachedException() {
-            super("请求数据前请先调用 attachView(MvpView) 方法与View建立连接");
+            super("请求数据前请先调用 attachView(View) 方法与View建立连接");
         }
     }
 }

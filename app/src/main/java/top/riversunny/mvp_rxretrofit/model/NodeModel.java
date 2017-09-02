@@ -11,7 +11,7 @@ import org.json.JSONObject;
  */
 
 public class NodeModel extends V2EXModel implements Parcelable {
-    //private static final long serialVersionUID = 2017082203L;
+    private static final long serialVersionUID = 2017082203L;
 
     public int id;
     public String name;

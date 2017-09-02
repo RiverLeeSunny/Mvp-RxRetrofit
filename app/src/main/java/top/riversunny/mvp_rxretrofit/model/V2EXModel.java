@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 
 public abstract class V2EXModel implements Serializable {
-//    private static final long serialVersionUID = 2017082200L;
+    private static final long serialVersionUID = 2017082200L;
     abstract public void parse(JSONObject jsonObject) throws JSONException;
 
 }

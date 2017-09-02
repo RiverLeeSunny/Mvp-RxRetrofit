@@ -38,6 +38,7 @@ public class TopicsPresenter extends MvpBasePresenter implements ITopicsPresente
 
     @Override
     public void getHotTopics() {
+        checkViewAttached();
         final TopicsFragment fragment = (TopicsFragment)getView();
         fragment.showLoading();
          subscriber = new Subscriber<ArrayList<TopicModel>>() {
