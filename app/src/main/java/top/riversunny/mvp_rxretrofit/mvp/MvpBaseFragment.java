@@ -9,7 +9,7 @@ import android.util.Log;
  */
 
 public abstract class MvpBaseFragment<V,T extends MvpBasePresenter> extends Fragment {
-    private static final String TAG = "TAG";
+    private static final String TAG = "MvpBaseFragment";
     //presenter对象
     private T mPresenter;
 

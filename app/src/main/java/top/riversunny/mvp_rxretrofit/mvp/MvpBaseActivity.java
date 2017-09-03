@@ -11,7 +11,7 @@ import android.widget.Toast;
  */
 
 public abstract class MvpBaseActivity <V,T extends MvpBasePresenter> extends AppCompatActivity {
-    private static final String TAG = "TAG";
+    private static final String TAG = "MvpBaseActivity";
     //presenter对象
     private T mPresenter;
 
